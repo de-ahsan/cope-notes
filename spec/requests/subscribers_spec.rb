@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe SubscribersController, type: :controller do
+RSpec.describe Api::V1::SubscribersController, type: :controller do
   let(:default_headers) do
     {
       'Content-Type' => 'application/json',

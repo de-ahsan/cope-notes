@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe MessagesController, type: :controller do
+RSpec.describe Api::V1::MessagesController, type: :controller do
   let(:default_headers) do
     {
       'Content-Type' => 'application/json',
