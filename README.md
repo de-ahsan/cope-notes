@@ -44,6 +44,13 @@ bundle install
 ```
 rails db:seed
 ```
+### Docker
+
+* I have also dockerize the application. Please install docker desktop and no need install any other dependency.
+* Please run following command and application is ready to use
+```
+docker-compose up
+```
 ### Using APP
 
 * I have added postman collection under postman directory, please import and use it.
